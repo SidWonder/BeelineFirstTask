@@ -1,0 +1,372 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+/*Панель навигации */
+
+nav {
+    min-height: 89px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 17px 50px;
+    margin: 0;
+}
+
+.menu .menuItem {
+    min-width: 154px;
+    height: 31px;
+    background-color: #D8D8D8;
+    margin-right: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+header .menu .menuItem:nth-child(1) {
+    margin: 0;
+    margin-right: auto;
+    border-radius: 50%;
+    min-width: 55px;
+    min-height: 55px;
+}
+
+.menu .menuItem:last-child {
+    margin-right: 0;
+}
+
+.bannerPromo {
+    min-height: 450px;
+    background-color: #D8D8D8;
+}
+
+.bannerPromo .bannerWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 130px;
+}
+
+.bannerPromo .bannerWrapper .header_h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.bannerPromo .bannerWrapper .header_h2 {
+    margin-top: 1px;
+    font-size: 36px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+
+/*Общие настройки для кнопки*/
+
+.btn {
+    width: 283px;
+    height: 60px;
+    border: none;
+    margin-top: 29px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.btn_white {
+    background-color: white;
+    color: black;
+    margin-right: 25px;
+}
+
+.btn_black {
+    background-color: black;
+    color: white;
+}
+
+
+/*Блок с маленькими статьями*/
+
+.article {
+    background-color: white;
+}
+
+.article .article_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 110px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.article .article_wrapper .block_article {
+    margin-bottom: 82px;
+}
+
+.article .article_wrapper .block_article:last-child {
+    margin-right: 0;
+}
+
+
+/*Общая настройка блока с картинкой*/
+
+.article_img {
+    background-color: #D8D8D8;
+}
+
+.article .article_wrapper .article_img {
+    width: 380px;
+    height: 244px;
+    margin-top: 80px;
+}
+
+.article_header {
+    display: block;
+    margin-top: 30px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1C1E20;
+}
+
+.article_title {
+    margin-top: 10px;
+    width: 371.28px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.article .article_wrapper .article_link {
+    display: block;
+    margin-top: 40px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #787878;
+}
+
+.article .article_wrapper .article_link:hover {
+    text-decoration: underline;
+}
+
+
+/*Страница с подпиской на рассылку*/
+
+.signUp {
+    margin: 0;
+    background: #D8D8D8;
+    min-height: 395px;
+}
+
+.signUp .signUp_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.signUp .signUp_wrapper .signUp_title {
+    margin-top: 129px;
+    Font-Family: Abel;
+    Font-Style: Regular;
+    Font-Size: 35px;
+    Line-Height: 47px;
+}
+
+.signUp .signUp_wrapper .signUp_form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.signUp .signUp_wrapper .signUp_form .signUp_form_input {
+    width: 372px;
+    max-height: 60px;
+    padding: 14px 0 12px 40px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 0;
+    border: none;
+}
+
+.signUp .signUp_wrapper .signUp_form .btn.btn_black {
+    margin-top: 0;
+}
+
+
+/*Блок с большими статьями в колонку*/
+
+.articleBig {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.articleBig .articleBigWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 125px 0 124px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.articleBig .articleBigWrapper .articleBigTextblock {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.articleBig .articleBigWrapper .articleBigTextblock .articleBigTextWrapper {
+    width: 543px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.articleBig .articleBigWrapper .articleBigTextblock:nth-child(odd) {
+    text-align: right;
+}
+
+.articleBig .articleBigWrapper .articleBigTextblock:nth-child(even) {
+    text-align: left;
+}
+
+.articleBig .articleBigWrapper .articleBigTextblock .articleBigTextWrapper:nth-child(even) {
+    margin-left: 60px;
+}
+
+.articleBig .articleBigWrapper .articleBigTextblock .article_title {
+    width: 100%;
+}
+
+.articleBig .articleBigWrapper .article_img {
+    width: 586px;
+    height: 386px;
+}
+
+.articleBig .btn.btn_black {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+/*Футер*/
+
+.footer {
+    min-height: 415px;
+    background-color: #D8D8D8;
+    padding: 97px 222px 100px 222px;
+}
+
+.footer .menu_item_logo {
+    margin: 0 auto;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.footer .menu {
+    margin-right: 130px;
+    margin-left: 130px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .menuItem {
+    background-color: white;
+}
+
+.footer .menuItem {
+    margin-top: 30px;
+}
+
+hr {
+    background-color: #FFFFFF;
+    margin-top: 29px;
+    width: 100%;
+    height: 2px;
+    border: none;
+}
+
+.social {
+    list-style-type: none;
+    margin-top: 49px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.social .socialIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 50px;
+}
